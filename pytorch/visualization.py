@@ -1,4 +1,5 @@
 import visdom
+import torch 
 
 # create an environment
 vis = visdom.Visdom(env='env_name')
